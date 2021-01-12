@@ -1,0 +1,56 @@
+body{
+    background-image: url(kableLogo.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 100%; 
+}
+
+.up{
+    position: relative;
+    bottom: 100px
+}
+/* body up */
+/* Nav down */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10, 25, 153);
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 15px 15px 15px rgba(0,0,0,.2)
+  }
+  ul.topnav li {float: left;}
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+  }
+  ul.topnav li a:hover:not(.active) {
+      background-color: #ddd;
+      color: rgb(0, 0, 3);
+  }
+  ul.topnav li a.active {
+      background-color: #960c96;
+  }
+  ul.topnav li.right {
+      float: right;
+  }
+  @media screen and (max-width: 720px) {
+    ul.topnav li{
+        width: 100%;
+    }
+    ul.topnav a{
+        width: 100%;
+    }
+  }
